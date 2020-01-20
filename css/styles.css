@@ -1,0 +1,187 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  text-decoration: none;
+  color: rgb(15, 85, 143);
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 4em;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+h1, h2 {
+  font-family: 'Open Sans', cursive;
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.title {
+  height:10vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color :#CF0706;
+}
+
+.white {
+  background-color :white;
+}
+
+.blue {
+  background-color: #0A1770;
+}
+
+.yellow {
+  background-color: #DDC507;
+}
+
+.black {
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;;
+}
+
+/* __________HEIGHT__________ */
+.h-1 {
+  height:2em !important;
+}
+
+.h-2 {
+  height:4em !important;
+}
+
+.h-3 {
+  height:9em !important;
+}
+
+.h-4 {
+  height:15em !important;
+}
+
+/* __________BORDER__________ */
+.b {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.b-l {
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-left-color: black;
+}
+
+.b-r {
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-right-color: black;
+}
+
+.b-t {
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.b-b {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+/* __________COLUMNS__________ */
+.col-2 {
+  flex:2; 
+}
+
+.col-3 {
+  flex:3; 
+}
+
+.col-4 {
+  flex:4;
+}
+
+.col-4 {
+  flex:5;
+}
+
+.col {
+  flex:1;
+  height:15em;
+  display: flex;
+  flex-direction: column;
+}
+
+.mondrian {
+  padding:1%;
+}
+
+/* Profile
+------------------------------------*/
+header {
+  background: #2F3061;
+  color: #F7FFF7;
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #343434;
+  color: #F7FFF7;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+.contact-list a{
+  color:rgb(173, 202, 41);
+}
